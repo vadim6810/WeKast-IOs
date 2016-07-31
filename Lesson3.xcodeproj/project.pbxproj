@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		E766DAAD1D4AA6CC0055B6DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */; };
 		E766DAAF1D4AA6CC0055B6DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAAE1D4AA6CC0055B6DC /* ViewController.swift */; };
-		E766DAB21D4AA6CC0055B6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB01D4AA6CC0055B6DC /* Main.storyboard */; };
 		E766DAB41D4AA6CC0055B6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */; };
 		E766DAB71D4AA6CC0055B6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */; };
 		E766DAC21D4AA6CC0055B6DC /* Lesson3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAC11D4AA6CC0055B6DC /* Lesson3Tests.swift */; };
+		E7C4D5D91D4E6E6100E51F4E /* Splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		E766DAA91D4AA6CC0055B6DC /* Lesson3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E766DAAE1D4AA6CC0055B6DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E766DAB11D4AA6CC0055B6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E766DAB61D4AA6CC0055B6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E766DAB81D4AA6CC0055B6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E766DABD1D4AA6CC0055B6DC /* Lesson3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766DAC11D4AA6CC0055B6DC /* Lesson3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3Tests.swift; sourceTree = "<group>"; };
 		E766DAC31D4AA6CC0055B6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Splash.mp4; path = ../../WeKast/SourcesFromTelRan/Splash.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 			children = (
 				E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */,
 				E766DAAE1D4AA6CC0055B6DC /* ViewController.swift */,
-				E766DAB01D4AA6CC0055B6DC /* Main.storyboard */,
 				E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */,
+				E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */,
 				E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */,
 				E766DAB81D4AA6CC0055B6DC /* Info.plist */,
 			);
@@ -177,9 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C4D5D91D4E6E6100E51F4E /* Splash.mp4 in Resources */,
 				E766DAB71D4AA6CC0055B6DC /* LaunchScreen.storyboard in Resources */,
 				E766DAB41D4AA6CC0055B6DC /* Assets.xcassets in Resources */,
-				E766DAB21D4AA6CC0055B6DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E766DAB01D4AA6CC0055B6DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E766DAB11D4AA6CC0055B6DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,6 +380,7 @@
 				E766DAC81D4AA6CC0055B6DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E766DAC91D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "Lesson3Tests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +389,7 @@
 				E766DACB1D4AA6CC0055B6DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

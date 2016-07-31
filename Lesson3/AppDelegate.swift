@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Lesson3
 //
-//  Created by Владимир Бодовец on 28.07.16.
+//  Created by Vladimir Bodovets on 28.07.16.
 //  Copyright © 2016 WeKast. All rights reserved.
 //
 
