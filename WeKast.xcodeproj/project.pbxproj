@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E758EF0B1D4E9F9300A799F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E758EF091D4E9F9300A799F1 /* Main.storyboard */; };
+		E758EF0D1D4EA03300A799F1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758EF0C1D4EA03300A799F1 /* SplashScreen.swift */; };
 		E766DAAD1D4AA6CC0055B6DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */; };
 		E766DAAF1D4AA6CC0055B6DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAAE1D4AA6CC0055B6DC /* ViewController.swift */; };
 		E766DAB41D4AA6CC0055B6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */; };
 		E766DAB71D4AA6CC0055B6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */; };
-		E766DAC21D4AA6CC0055B6DC /* Lesson3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAC11D4AA6CC0055B6DC /* Lesson3Tests.swift */; };
+		E766DAC21D4AA6CC0055B6DC /* WeKastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAC11D4AA6CC0055B6DC /* WeKastTests.swift */; };
+		E77234FE1D50C24300D59AB5 /* SplashControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */; };
+		E77390151D4F5F4A00084C89 /* LaunchSplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */; };
 		E7C4D5D91D4E6E6100E51F4E /* Splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */; };
 /* End PBXBuildFile section */
 
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E766DAA91D4AA6CC0055B6DC /* Lesson3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E758EF0A1D4E9F9300A799F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E758EF0C1D4EA03300A799F1 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E766DAA91D4AA6CC0055B6DC /* WeKast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeKast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E766DAAE1D4AA6CC0055B6DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E766DAB61D4AA6CC0055B6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E766DAB81D4AA6CC0055B6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E766DABD1D4AA6CC0055B6DC /* Lesson3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E766DAC11D4AA6CC0055B6DC /* Lesson3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3Tests.swift; sourceTree = "<group>"; };
+		E766DABD1D4AA6CC0055B6DC /* WeKast.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeKast.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E766DAC11D4AA6CC0055B6DC /* WeKastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeKastTests.swift; sourceTree = "<group>"; };
 		E766DAC31D4AA6CC0055B6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Splash.mp4; path = ../../WeKast/SourcesFromTelRan/Splash.mp4; sourceTree = "<group>"; };
+		E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashControllerViewController.swift; sourceTree = "<group>"; };
+		E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchSplashScreen.storyboard; sourceTree = "<group>"; };
+		E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Splash.mp4; path = Media/Splash.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,8 @@
 		E766DAA01D4AA6CC0055B6DC = {
 			isa = PBXGroup;
 			children = (
-				E766DAAB1D4AA6CC0055B6DC /* Lesson3 */,
-				E766DAC01D4AA6CC0055B6DC /* Lesson3Tests */,
+				E766DAAB1D4AA6CC0055B6DC /* WeKast */,
+				E766DAC01D4AA6CC0055B6DC /* WeKastTests */,
 				E766DAAA1D4AA6CC0055B6DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +76,53 @@
 		E766DAAA1D4AA6CC0055B6DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E766DAA91D4AA6CC0055B6DC /* Lesson3.app */,
-				E766DABD1D4AA6CC0055B6DC /* Lesson3Tests.xctest */,
+				E766DAA91D4AA6CC0055B6DC /* WeKast.app */,
+				E766DABD1D4AA6CC0055B6DC /* WeKast.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E766DAAB1D4AA6CC0055B6DC /* Lesson3 */ = {
+		E766DAAB1D4AA6CC0055B6DC /* WeKast */ = {
 			isa = PBXGroup;
 			children = (
+				E79978211D5233A800B4EFF2 /* Media */,
 				E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */,
 				E766DAAE1D4AA6CC0055B6DC /* ViewController.swift */,
+				E758EF091D4E9F9300A799F1 /* Main.storyboard */,
 				E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */,
 				E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */,
 				E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */,
 				E766DAB81D4AA6CC0055B6DC /* Info.plist */,
+				E758EF0C1D4EA03300A799F1 /* SplashScreen.swift */,
+				E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */,
+				E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */,
 			);
-			path = Lesson3;
+			path = WeKast;
 			sourceTree = "<group>";
 		};
-		E766DAC01D4AA6CC0055B6DC /* Lesson3Tests */ = {
+		E766DAC01D4AA6CC0055B6DC /* WeKastTests */ = {
 			isa = PBXGroup;
 			children = (
-				E766DAC11D4AA6CC0055B6DC /* Lesson3Tests.swift */,
+				E766DAC11D4AA6CC0055B6DC /* WeKastTests.swift */,
 				E766DAC31D4AA6CC0055B6DC /* Info.plist */,
 			);
+			name = WeKastTests;
 			path = Lesson3Tests;
+			sourceTree = "<group>";
+		};
+		E79978211D5233A800B4EFF2 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E766DAA81D4AA6CC0055B6DC /* Lesson3 */ = {
+		E766DAA81D4AA6CC0055B6DC /* WeKast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E766DAC61D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "Lesson3" */;
+			buildConfigurationList = E766DAC61D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "WeKast" */;
 			buildPhases = (
 				E766DAA51D4AA6CC0055B6DC /* Sources */,
 				E766DAA61D4AA6CC0055B6DC /* Frameworks */,
@@ -111,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = Lesson3;
+			name = WeKast;
 			productName = Lesson3;
-			productReference = E766DAA91D4AA6CC0055B6DC /* Lesson3.app */;
+			productReference = E766DAA91D4AA6CC0055B6DC /* WeKast.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E766DABC1D4AA6CC0055B6DC /* Lesson3Tests */ = {
+		E766DABC1D4AA6CC0055B6DC /* WeKastTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E766DAC91D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "Lesson3Tests" */;
+			buildConfigurationList = E766DAC91D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "WeKastTests" */;
 			buildPhases = (
 				E766DAB91D4AA6CC0055B6DC /* Sources */,
 				E766DABA1D4AA6CC0055B6DC /* Frameworks */,
@@ -129,9 +150,9 @@
 			dependencies = (
 				E766DABF1D4AA6CC0055B6DC /* PBXTargetDependency */,
 			);
-			name = Lesson3Tests;
+			name = WeKastTests;
 			productName = Lesson3Tests;
-			productReference = E766DABD1D4AA6CC0055B6DC /* Lesson3Tests.xctest */;
+			productReference = E766DABD1D4AA6CC0055B6DC /* WeKast.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +167,7 @@
 				TargetAttributes = {
 					E766DAA81D4AA6CC0055B6DC = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QH3D63ZD6X;
 					};
 					E766DABC1D4AA6CC0055B6DC = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -153,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E766DAA41D4AA6CC0055B6DC /* Build configuration list for PBXProject "Lesson3" */;
+			buildConfigurationList = E766DAA41D4AA6CC0055B6DC /* Build configuration list for PBXProject "WeKast" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E766DAA81D4AA6CC0055B6DC /* Lesson3 */,
-				E766DABC1D4AA6CC0055B6DC /* Lesson3Tests */,
+				E766DAA81D4AA6CC0055B6DC /* WeKast */,
+				E766DABC1D4AA6CC0055B6DC /* WeKastTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C4D5D91D4E6E6100E51F4E /* Splash.mp4 in Resources */,
+				E758EF0B1D4E9F9300A799F1 /* Main.storyboard in Resources */,
 				E766DAB71D4AA6CC0055B6DC /* LaunchScreen.storyboard in Resources */,
 				E766DAB41D4AA6CC0055B6DC /* Assets.xcassets in Resources */,
+				E77390151D4F5F4A00084C89 /* LaunchSplashScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E758EF0D1D4EA03300A799F1 /* SplashScreen.swift in Sources */,
+				E77234FE1D50C24300D59AB5 /* SplashControllerViewController.swift in Sources */,
 				E766DAAF1D4AA6CC0055B6DC /* ViewController.swift in Sources */,
 				E766DAAD1D4AA6CC0055B6DC /* AppDelegate.swift in Sources */,
 			);
@@ -206,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E766DAC21D4AA6CC0055B6DC /* Lesson3Tests.swift in Sources */,
+				E766DAC21D4AA6CC0055B6DC /* WeKastTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,12 +241,20 @@
 /* Begin PBXTargetDependency section */
 		E766DABF1D4AA6CC0055B6DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E766DAA81D4AA6CC0055B6DC /* Lesson3 */;
+			target = E766DAA81D4AA6CC0055B6DC /* WeKast */;
 			targetProxy = E766DABE1D4AA6CC0055B6DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E758EF091D4E9F9300A799F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E758EF0A1D4E9F9300A799F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,10 +353,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Lesson3/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WeKast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tel-ran.Lesson3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tel-ran.WeKast";
+				PRODUCT_NAME = WeKast;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -330,10 +367,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Lesson3/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WeKast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tel-ran.Lesson3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tel-ran.WeKast";
+				PRODUCT_NAME = WeKast;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -344,8 +384,8 @@
 				INFOPLIST_FILE = Lesson3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tel-ran.Lesson3Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson3.app/Lesson3";
+				PRODUCT_NAME = WeKast;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeKast.app/WeKast";
 			};
 			name = Debug;
 		};
@@ -356,15 +396,15 @@
 				INFOPLIST_FILE = Lesson3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tel-ran.Lesson3Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson3.app/Lesson3";
+				PRODUCT_NAME = WeKast;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeKast.app/WeKast";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E766DAA41D4AA6CC0055B6DC /* Build configuration list for PBXProject "Lesson3" */ = {
+		E766DAA41D4AA6CC0055B6DC /* Build configuration list for PBXProject "WeKast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E766DAC41D4AA6CC0055B6DC /* Debug */,
@@ -373,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E766DAC61D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "Lesson3" */ = {
+		E766DAC61D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "WeKast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E766DAC71D4AA6CC0055B6DC /* Debug */,
@@ -382,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E766DAC91D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "Lesson3Tests" */ = {
+		E766DAC91D4AA6CC0055B6DC /* Build configuration list for PBXNativeTarget "WeKastTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E766DACA1D4AA6CC0055B6DC /* Debug */,

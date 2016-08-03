@@ -1,13 +1,13 @@
 //
-//  Lesson3Tests.swift
-//  Lesson3Tests
+//  WeKastTests.swift
+//  WekastTests
 //
-//  Created by Владимир Бодовец on 28.07.16.
+//  Created by Vladimir Bodovets on 28.07.16.
 //  Copyright © 2016 WeKast. All rights reserved.
 //
 
 import XCTest
-@testable import Lesson3
+@testable import WeKast
 
 class Lesson3Tests: XCTestCase {
     

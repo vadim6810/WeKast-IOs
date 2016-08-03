@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Lesson3
+//  WeKast
 //
 //  Created by Vladimir Bodovets on 28.07.16.
 //  Copyright © 2016 WeKast. All rights reserved.
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewDidAppear(animated: Bool) {
-        startSplashScreen()
+        //startSplashScreen()
     }
 
     override func didReceiveMemoryWarning() {

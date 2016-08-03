@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Lesson3
+//  WeKast
 //
 //  Created by Vladimir Bodovets on 28.07.16.
 //  Copyright © 2016 WeKast. All rights reserved.

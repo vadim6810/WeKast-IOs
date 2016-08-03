@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E766DAA81D4AA6CC0055B6DC"
-               BuildableName = "Lesson3.app"
-               BlueprintName = "Lesson3"
-               ReferencedContainer = "container:Lesson3.xcodeproj">
+               BuildableName = "WeKast.app"
+               BlueprintName = "WeKast"
+               ReferencedContainer = "container:WeKast.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E766DABC1D4AA6CC0055B6DC"
-               BuildableName = "Lesson3Tests.xctest"
-               BlueprintName = "Lesson3Tests"
-               ReferencedContainer = "container:Lesson3.xcodeproj">
+               BuildableName = "WeKast.xctest"
+               BlueprintName = "WeKastTests"
+               ReferencedContainer = "container:WeKast.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E766DAA81D4AA6CC0055B6DC"
-            BuildableName = "Lesson3.app"
-            BlueprintName = "Lesson3"
-            ReferencedContainer = "container:Lesson3.xcodeproj">
+            BuildableName = "WeKast.app"
+            BlueprintName = "WeKast"
+            ReferencedContainer = "container:WeKast.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E766DAA81D4AA6CC0055B6DC"
-            BuildableName = "Lesson3.app"
-            BlueprintName = "Lesson3"
-            ReferencedContainer = "container:Lesson3.xcodeproj">
+            BuildableName = "WeKast.app"
+            BlueprintName = "WeKast"
+            ReferencedContainer = "container:WeKast.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E766DAA81D4AA6CC0055B6DC"
-            BuildableName = "Lesson3.app"
-            BlueprintName = "Lesson3"
-            ReferencedContainer = "container:Lesson3.xcodeproj">
+            BuildableName = "WeKast.app"
+            BlueprintName = "WeKast"
+            ReferencedContainer = "container:WeKast.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
