@@ -30,12 +30,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showMessage() {
+//        let password="";
+//        let log=self.login.text;
         let password="";
         let log=self.login.text;
+
+        
         let mail=self.email.text;
-        print(log," ",mail);
+        print("Login and mail for send",log," ",mail);
         
         let params = ["login": log, "email": mail]
+        print("PARAMS!!! \(params)")
+        print("LOGIN \(params["login"])")
         struct Answer: JSONJoy {
             let login: String?
             let email: String?
@@ -58,9 +64,10 @@ class ViewController: UIViewController {
         }
         do {
             let opt = try HTTP.POST("http://78.153.150.254/register", parameters: params)
+            
             opt.start { response in
                 print("opt finished: \(response.description)")
-                //  print (response.data)
+                  print (response.data)
                 let resp = Response(JSONDecoder(response.data))
                 if let err = resp.error {
                     print("got an error: \(err)")

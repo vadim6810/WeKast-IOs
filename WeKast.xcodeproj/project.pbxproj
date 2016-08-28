@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84ACD8B81D52479600F9BAED /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8931D52472600F9BAED /* SwiftHTTP.framework */; };
-		84ACD8B91D52479D00F9BAED /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8AB1D52473E00F9BAED /* JSONJoy.framework */; };
 		E758EF0B1D4E9F9300A799F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E758EF091D4E9F9300A799F1 /* Main.storyboard */; };
 		E758EF0D1D4EA03300A799F1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758EF0C1D4EA03300A799F1 /* SplashScreen.swift */; };
 		E766DAAD1D4AA6CC0055B6DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAAC1D4AA6CC0055B6DC /* AppDelegate.swift */; };
@@ -18,6 +16,10 @@
 		E766DAC21D4AA6CC0055B6DC /* WeKastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAC11D4AA6CC0055B6DC /* WeKastTests.swift */; };
 		E77234FE1D50C24300D59AB5 /* SplashControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */; };
 		E77390151D4F5F4A00084C89 /* LaunchSplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */; };
+		E77FEF671D5A053500F34212 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8AB1D52473E00F9BAED /* JSONJoy.framework */; };
+		E77FEF681D5A053500F34212 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8AB1D52473E00F9BAED /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E77FEF6C1D5A053B00F34212 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8931D52472600F9BAED /* SwiftHTTP.framework */; };
+		E77FEF6D1D5A053B00F34212 /* SwiftHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8931D52472600F9BAED /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7C4D5D91D4E6E6100E51F4E /* Splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */; };
 /* End PBXBuildFile section */
 
@@ -127,7 +129,50 @@
 			remoteGlobalIDString = E766DAA81D4AA6CC0055B6DC;
 			remoteInfo = Lesson3;
 		};
+		E77FEF601D5A025300F34212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ACD8A01D52473E00F9BAED /* JSONJoy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79B619D355CF006071F7;
+			remoteInfo = JSONJoy;
+		};
+		E77FEF651D5A025900F34212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ACD8881D52472500F9BAED /* SwiftHTTP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFD901519C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		E77FEF691D5A053500F34212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ACD8A01D52473E00F9BAED /* JSONJoy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79B619D355CF006071F7;
+			remoteInfo = JSONJoy;
+		};
+		E77FEF6E1D5A053B00F34212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ACD8881D52472500F9BAED /* SwiftHTTP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFD901519C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E77FEF6B1D5A053600F34212 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E77FEF6D1D5A053B00F34212 /* SwiftHTTP.framework in Embed Frameworks */,
+				E77FEF681D5A053500F34212 /* JSONJoy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		84ACD8861D52470F00F9BAED /* WeKast */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WeKast; sourceTree = "<group>"; };
@@ -154,8 +199,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ACD8B91D52479D00F9BAED /* JSONJoy.framework in Frameworks */,
-				84ACD8B81D52479600F9BAED /* SwiftHTTP.framework in Frameworks */,
+				E77FEF6C1D5A053B00F34212 /* SwiftHTTP.framework in Frameworks */,
+				E77FEF671D5A053500F34212 /* JSONJoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +308,15 @@
 				E766DAA51D4AA6CC0055B6DC /* Sources */,
 				E766DAA61D4AA6CC0055B6DC /* Frameworks */,
 				E766DAA71D4AA6CC0055B6DC /* Resources */,
+				E77FEF6B1D5A053600F34212 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E77FEF611D5A025300F34212 /* PBXTargetDependency */,
+				E77FEF661D5A025900F34212 /* PBXTargetDependency */,
+				E77FEF6A1D5A053500F34212 /* PBXTargetDependency */,
+				E77FEF6F1D5A053B00F34212 /* PBXTargetDependency */,
 			);
 			name = WeKast;
 			productName = Lesson3;
@@ -491,6 +541,26 @@
 			target = E766DAA81D4AA6CC0055B6DC /* WeKast */;
 			targetProxy = E766DABE1D4AA6CC0055B6DC /* PBXContainerItemProxy */;
 		};
+		E77FEF611D5A025300F34212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONJoy;
+			targetProxy = E77FEF601D5A025300F34212 /* PBXContainerItemProxy */;
+		};
+		E77FEF661D5A025900F34212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHTTP;
+			targetProxy = E77FEF651D5A025900F34212 /* PBXContainerItemProxy */;
+		};
+		E77FEF6A1D5A053500F34212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONJoy;
+			targetProxy = E77FEF691D5A053500F34212 /* PBXContainerItemProxy */;
+		};
+		E77FEF6F1D5A053B00F34212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHTTP;
+			targetProxy = E77FEF6E1D5A053B00F34212 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -602,7 +672,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WeKast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wekaster;
 				PRODUCT_NAME = WeKast;
@@ -616,7 +688,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WeKast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wekaster;
 				PRODUCT_NAME = WeKast;
