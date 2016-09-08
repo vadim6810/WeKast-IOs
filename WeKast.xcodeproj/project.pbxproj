@@ -14,6 +14,7 @@
 		E766DAB41D4AA6CC0055B6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB31D4AA6CC0055B6DC /* Assets.xcassets */; };
 		E766DAB71D4AA6CC0055B6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766DAB51D4AA6CC0055B6DC /* LaunchScreen.storyboard */; };
 		E766DAC21D4AA6CC0055B6DC /* WeKastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766DAC11D4AA6CC0055B6DC /* WeKastTests.swift */; };
+		E76BCDB51D60BC8D009C8880 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76BCDB41D60BC8D009C8880 /* Login.swift */; };
 		E77234FE1D50C24300D59AB5 /* SplashControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */; };
 		E77390151D4F5F4A00084C89 /* LaunchSplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */; };
 		E77FEF671D5A053500F34212 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ACD8AB1D52473E00F9BAED /* JSONJoy.framework */; };
@@ -189,6 +190,7 @@
 		E766DABD1D4AA6CC0055B6DC /* WeKast.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeKast.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766DAC11D4AA6CC0055B6DC /* WeKastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeKastTests.swift; sourceTree = "<group>"; };
 		E766DAC31D4AA6CC0055B6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76BCDB41D60BC8D009C8880 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashControllerViewController.swift; sourceTree = "<group>"; };
 		E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchSplashScreen.storyboard; sourceTree = "<group>"; };
 		E7C4D5D81D4E6E2A00E51F4E /* Splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Splash.mp4; path = Media/Splash.mp4; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 				E758EF0C1D4EA03300A799F1 /* SplashScreen.swift */,
 				E77390141D4F5F4A00084C89 /* LaunchSplashScreen.storyboard */,
 				E77234FD1D50C24300D59AB5 /* SplashControllerViewController.swift */,
+				E76BCDB41D60BC8D009C8880 /* Login.swift */,
 			);
 			path = WeKast;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E758EF0D1D4EA03300A799F1 /* SplashScreen.swift in Sources */,
+				E76BCDB51D60BC8D009C8880 /* Login.swift in Sources */,
 				E77234FE1D50C24300D59AB5 /* SplashControllerViewController.swift in Sources */,
 				E766DAAF1D4AA6CC0055B6DC /* ViewController.swift in Sources */,
 				E766DAAD1D4AA6CC0055B6DC /* AppDelegate.swift in Sources */,
